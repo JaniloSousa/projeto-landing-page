@@ -1,0 +1,13 @@
+@media screen and (min-width: 850px) {
+    header div.header {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0px;
+    }
+    
+    header div.header nav {
+        display: flex;
+        flex-direction: row;
+        width: auto;
+    }
+}

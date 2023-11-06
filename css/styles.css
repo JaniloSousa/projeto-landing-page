@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.gallowdiv {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 15px 0px 15px;
+}
+
+/* ------------------ header -------------------- */
+
+header {
+    background-color: blue;
+    padding: 40px 0px 40px 0px;
+}
+
+header div.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+header div.header div.logo {
+
+}
+
+header div.header div.logo h1 {
+    font-size: 40px;
+}
+
+header div.header div.logo h1 a {
+    color: white;
+    text-decoration: none;
+}
+
+header div.header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+header div.header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 20px 20px;
+}
+
+header div.header nav a:hover {
+    background-color: rgb(0, 0, 211);
+}
