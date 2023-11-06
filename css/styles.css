@@ -3,12 +3,16 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 div.gallowdiv {
-    max-width: 1000px;
+    max-width: 1250px;
     margin: auto;
     padding: 0px 15px 0px 15px;
 }
@@ -217,4 +221,75 @@ section#text-cards div.text-cards div.text-card h2 {
 
 section#text-cards div.text-cards div.text-card p {
     line-height: 25px;  
+}
+
+/* ---------------------------- cards ----------------------------------- */
+section#cards {
+    padding: 50px 0px 50px 0px;
+}
+
+section#cards div.cards-intro {
+    text-align: center;
+}
+
+section#cards div.cards-intro h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+section#cards div.cards-intro p {
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+section#cards div.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+section#cards div.cards div.card {
+    border-radius: 20px;
+    box-shadow: 0px 20px 10px 0px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    transition: all 200ms ease-in-out;
+}
+
+section#cards div.cards div.card:hover {
+    scale: 1.1;
+    box-shadow: 0px 30px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+section#cards div.cards div.card div.card-image {
+
+}
+
+section#cards div.cards div.card div.card-image img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+section#cards div.cards div.card div.card-text {
+    padding: 10px;
+}
+
+section#cards div.cards div.card div.card-text h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section#cards div.cards div.card div.card-text p {
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+section#cards div.cards div.card div.card-text a {
+    background-color: #436F70;
+    padding: 10px 40px;
+    display: inline-block;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
 }

@@ -63,4 +63,13 @@
     section#text-cards div.text-cards {
         flex-direction: row;
     }
+
+    /* --------------------- cards ---------------------------- */
+    section#cards {
+        padding: 100px 0px 100px 0px;
+    }
+    
+    section#cards div.cards div.card {
+        max-width: 380px;
+    }
 }
