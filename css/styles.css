@@ -105,3 +105,46 @@ section#hero div.hero div.hero-image {
 section#hero div.hero div.hero-image img {
     width: 100%;
 }
+
+/* ----------------------------- horizontal cards ---------------------------------------- */
+section#horizontal-cards {
+    padding: 50px 0px 50px 0px;
+}
+
+section#horizontal-cards div.horizontal-cards {
+    
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 0px 50px 0px;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card:nth-child(2) {
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card div.horizontal-card-image {
+    
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-image img {
+    width: 100%;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card div.horizontal-card-text {
+    
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text p {
+    line-height: 25px;
+    text-align: justify;
+}

@@ -34,4 +34,19 @@
     section#hero div.hero div.hero-text a {
         margin: 0px;
     }
+
+    /* --------------------- horizontal cards ---------------------------------*/
+
+    section#horizontal-cards {
+        padding: 100px 0px 100px 0px;
+    }
+    
+    section#horizontal-cards div.horizontal-cards div.horizontal-card {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text {
+        width: 800px;
+    }
 }
