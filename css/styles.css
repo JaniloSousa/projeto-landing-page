@@ -144,9 +144,77 @@ section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal
 section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text h2 {
     font-size: 40px;
     margin-bottom: 10px;
+    color: #436F70;
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text h2 i {
+    width: 50px;
+    display: inline-block;
+}
+
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text h2 i img {
+    width: 100%;
 }
 
 section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text p {
     line-height: 25px;
     text-align: justify;
+}
+
+/* ----------------------------------- text cards ------------------------------------------ */
+section#text-cards {
+    background-color: cadetblue;
+    padding: 50px 0px 50px 0px;
+}
+
+section#text-cards div.text-cards-intro {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section#text-cards div.text-cards-intro h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+section#text-cards div.text-cards-intro p {
+    line-height: 25px;
+}
+
+section#text-cards div.text-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+section#text-cards div.text-cards div.text-card {
+    text-align: center;
+    color: white;
+}
+
+section#text-cards div.text-cards div.text-card i {
+    width: 50px;
+    display: block;
+    margin: auto;
+}
+
+section#text-cards div.text-cards div.text-card i img {
+    width: 100%;
+}
+
+section#text-cards div.text-cards div.text-card h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+section#text-cards div.text-cards div.text-card p {
+    line-height: 25px;  
 }

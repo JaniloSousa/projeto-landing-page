@@ -49,4 +49,18 @@
     section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-text {
         width: 800px;
     }
+
+    /* ---------------------- text-cards -------------------------- */
+    section#text-cards {
+        background-color: cadetblue;
+        padding: 100px 0px 100px 0px;
+    }
+    
+    section#text-cards div.text-cards-intro {
+        margin-bottom: 100px;
+    }
+    
+    section#text-cards div.text-cards {
+        flex-direction: row;
+    }
 }
