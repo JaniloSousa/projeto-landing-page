@@ -98,8 +98,9 @@ section#hero div.hero div.hero-text a {
     padding: 15px 0px 15px 0px;
 }
 
-section#hero div.hero div.hero-image {
-    
+section#hero div.hero div.hero-image { /* PRESTE ATENÇÃO AQUI */
+    max-width: 500px;
+    margin: auto;
 }
 
 section#hero div.hero div.hero-image img {
@@ -127,8 +128,9 @@ section#horizontal-cards div.horizontal-cards div.horizontal-card:nth-child(2) {
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
-section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card div.horizontal-card-image {
-    
+section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-image { /* PRESTE ATENÇÃO AQUI */
+    max-width: 500px;
+    margin: auto;
 }
 
 section#horizontal-cards div.horizontal-cards div.horizontal-card div.horizontal-card-image img {
